@@ -16,7 +16,7 @@
 		<div class = "mapSelect">
 			<p class = "map_select">地域：</p>
 			<form name = "f_map_select">
-				<select id = "select_district" disabled = "disabled" size = "4">
+				<select id = "select_district" disabled = "disabled" size = "5">
 					<option value = "">地域の選択</option>    
 				</select>
 			<p class = "map_select">図幅名：</p>
@@ -37,6 +37,13 @@
 					<option value = "multiply" selected>multiply</option>
 					<option value = "source-over">source-over</option>
 					<option value = "destination-over">destination-over</option>
+				</select>
+			</form>
+			<p class = "map_select">日本シームレス地質図情報：</p>
+			<form>
+				<select id = "seamless-version" class = "form-control" size = "1">
+					<option value = "basic_version" selected>基本版</option>
+					<option value = "detailed_version">詳細版</option>
 				</select>
 			</form>
 		</div>
